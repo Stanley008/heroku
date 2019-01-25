@@ -8,7 +8,7 @@ import plotly.graph_objs as go
 import os
 
 server = app.server
-server.secret_key = os.environ.get('SECRET_KEY', 'my-secret-key')
+server.secret_key = os.environ.get('SECRET_KEY', 'abcdefghijkl123456')
 
 titanic = pd.read_excel('http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic3.xls')
 
